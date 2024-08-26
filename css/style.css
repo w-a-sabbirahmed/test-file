@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --heading-font: "Open Sans", sans-serif;
+  --body-font:"Nunito", sans-serif;
+  --primary-color: rgb(132, 84, 245); 
+
+}
+
+
+h1
+{  font-family: var(--heading-font);
+  font-weight: 700;
+font-size: 60px;}
+  
+
+h2 { font-family: var(--heading-font);
+  font-weight: 700;
+font-size: 45px;
+color: rgb(41, 49, 61);
+font-family: Open Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;}
+
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  font-weight: 700;
+
+}
+
+
+
+.ban-p p {
+
+  font-family: var(--body-font);
+ font-weight: 400;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding-right: 200px;
+
+}
+
+
+
+
+.btn-custom ,
+.btn-custom:hover {
+background-color: var(--primary-color);
+color: #fff;
+
+
+}
+
+
+a {text-decoration: none;}
+
+.line-1 {
+  width: 7px;
+  height: 70px;
+  background: rgb(255, 197, 86);
+ margin-right: 15px;
+ margin-top: 15px;
+}
+
+
+.but-ban {
+
+width: 169px;
+height: 80px;
+left: auto;
+right: 15px;
+top: 15px;
+}
+
+.ema-2 {
+height: 110px;}
+
+
+.banner-1 {
+  margin-bottom: 80px;
+}
+
+.pfor {   font-size: 18px;
+        line-height: 28px;
+        margin-top: 50px;
+        padding-left: 20px;
+        border-left: 5px solid yellow;
+}
+
+
+
+.box-bro {
+
+border: 1px solid rgba(132, 84, 245, 0.4);
+border-radius: 30px;
+padding: 20px;
+}
+
+.bro:hover {
+  border-radius: 30px;
+color:#fff;
+background: rgb(132, 84, 245);
+p {
+  color: #fff;
+}
+}
+
+.bro-2:hover {
+  border-radius: 30px;
+color:#fff;
+background: rgb(0, 117, 62);
+}
+
+.bro-3:hover {
+  border-radius: 30px;
+color:#fff;
+background: rgb(53, 82, 201);
+}
+
+.bro-4:hover {
+  border-radius: 30px;
+color:#fff;
+background: rgb(84, 245, 127);
+}
+.bro-5:hover {
+  border-radius: 30px;
+color:#fff;
+background: rgb(171, 233, 56);
+}
+.bro-6:hover {
+  border-radius: 30px;
+color:#fff;
+background: rgb(230, 61, 109);
+}
+
+
+
+
+
+
+
+.clo {
+
+align-items: center;
+}
+
+
+.clo-main {
+  font-size: 34px;
+  color:rgb(254, 195, 95);;
+border-radius: 14px;
+background: rgba(254, 195, 95, 0.15);
+width: 60px;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 20px;
+border-radius: 15px;
+
+}
+
+
+.ro {background: rgb(255, 252, 247);}
+
+
+
+.p-box {color: rgb(41, 49, 61);
+font-family: var(--body-font);
+font-size: 18px;
+font-weight: 400;
+line-height: 180%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;}
